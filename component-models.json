@@ -162,7 +162,31 @@
        "name": "author",
        "label": "Author",
        "value": ""
-     }
+     },
+    {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Highlight",
+            "value": "cards-highlight"
+          },
+          {
+            "name": "Brand Light",
+            "value": "cards-brand-light"
+          },
+          {
+            "name": "Brand Dark",
+            "value": "cards-brand-dark"
+          },
+          {
+            "name": "Horizontal Cards",
+            "value": "cards-horizontal"
+          }
+        ]
+      }
    ]
 }
 ,
