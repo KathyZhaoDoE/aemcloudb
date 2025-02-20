@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/aem-cloud-kathy-b/:/",
-    "/content/aem-cloud-kathy-b/configuration:/.helix/config.json",
-    "/content/aem-cloud-kathy-b/metadata:/metadata.json"
+    "/content/aem-cloud-kathy-site/:/",
+    "/content/aem-cloud-kathy-site/configuration:/.helix/config.json",
+    "/content/aem-cloud-kathy-site/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/aem-cloud-kathy-b/"
+    "/content/aem-cloud-kathy-site/"
   ]
 }
