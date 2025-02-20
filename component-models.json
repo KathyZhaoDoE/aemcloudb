@@ -74,25 +74,7 @@
         "name": "linkTitle",
         "label": "Title"
       },
-      {
-        "component": "select",
-        "name": "linkType",
-        "label": "Type",
-        "options": [
-          {
-            "name": "default",
-            "value": ""
-          },
-          {
-            "name": "primary",
-            "value": "primary"
-          },
-          {
-            "name": "secondary",
-            "value": "secondary"
-          }
-        ]
-      }
+      v
     ]
   },
   {
@@ -183,29 +165,36 @@
        "value": ""
      },
     {
-        "component": "multiselect",
-        "name": "classes",
-        "label": "Style",
-        "valueType": "string",
+        "component": "select",
+        "name": "titleType",
+        "label": "Title Type",
         "options": [
           {
-            "name": "Highlight",
-            "value": "cards-highlight"
+            "name": "h1",
+            "value": "h1"
           },
           {
-            "name": "Brand Light",
-            "value": "cards-brand-light"
+            "name": "h2",
+            "value": "h2"
           },
           {
-            "name": "Brand Dark",
-            "value": "cards-brand-dark"
+            "name": "h3",
+            "value": "h3"
           },
           {
-            "name": "Horizontal Cards",
-            "value": "cards-horizontal"
+            "name": "h4",
+            "value": "h4"
+          },
+          {
+            "name": "h5",
+            "value": "h5"
+          },
+          {
+            "name": "h6",
+            "value": "h6"
           }
         ]
-      },
+      }
    ]
 }
 ,
