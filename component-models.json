@@ -216,4 +216,54 @@
       }
     ]
   }
+  ,
+  {
+    "id": "cards",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Highlight",
+            "value": "cards-highlight"
+          },
+          {
+            "name": "Brand Light",
+            "value": "cards-brand-light"
+          },
+          {
+            "name": "Brand Dark",
+            "value": "cards-brand-dark"
+          },
+          {
+            "name": "Horizontal Cards",
+            "value": "cards-horizontal"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "style",
+        "label": "Cards per row",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "2",
+            "value": "cards-col-2"
+          },
+          {
+            "name": "3",
+            "value": "cards-col-3"
+          },
+          {
+            "name": "4",
+            "value": "cards-col-4"
+          }
+        ]
+      }
+    ]
+  }
 ]
