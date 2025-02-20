@@ -162,7 +162,12 @@
        "name": "author",
        "label": "Author",
        "value": ""
-     },
+     }
+   ]
+},
+{
+  "id": "quotegroup",
+  "fields": [
     {
         "component": "multiselect",
         "name": "classes",
